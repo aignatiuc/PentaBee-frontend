@@ -40,7 +40,7 @@ body {
   }
 
   .link-redirect {
-    color: #ffbc1d;
+    color: #668994;
   }
 
   .home-content {
@@ -48,14 +48,14 @@ body {
   }
 
   .btn-1 {
-    background-color: #6f97a3;
+    background-image: linear-gradient(to right, #668994 0%, #6f97a3 50%, #668994 100%);
     color: #fff;
+    font-weight: bold;
     margin-left: 5px;
   }
 
   .btn-1:hover {
     background-position: right center;
-    color: #fff;
   }
 
   .btn {

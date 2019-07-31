@@ -1,5 +1,5 @@
 import Router from 'vue-router';
-import Home from '@/views/Home';
+import Home from '@/views/TheHome';
 import Login from '@/components/auth/Login';
 import Registration from '@/components/auth/Registration';
 import Profile from '@/components/user/VProfile';
@@ -8,6 +8,7 @@ import NotFound from '@/views/NotFound';
 import Activity from '@/components/activity/VActivity';
 import CreateActivity from '@/components/activity/CreateActivity';
 import ActivityList from '../components/activity/ActivityList';
+import  ActivityEdit from '@/components/activity/EditActivity';
 
 import Vue from 'vue';
 import store from '../store';
@@ -79,6 +80,14 @@ const router = new Router({
       meta: {
         requiresAuth: true,
       },
+    },
+    {
+      path: '/activity/:activityEditId/edit',
+      name: 'activityEdit',
+      component: ActivityEdit,
+      meta: {
+        requiresAuth: true,
+      }
     },
   ],
 });

@@ -52,10 +52,8 @@
 
             <div class="text-center button-padding">
               <b-btn
-                variant="warning"
                 class="btn btn-1"
                 block
-                pill
                 @click="onSubmit()"
               >Log In
               </b-btn>
@@ -63,7 +61,7 @@
 
             <p class="mt-3 text-center">
               Haven't got a
-              <b-link class="link-redirect" to="#">PentaBee</b-link>
+              <b-text class="link-redirect">PentaBee</b-text>
               account?
               <b-link class="link-redirect" to="/registration">Sign Up</b-link>
             </p>

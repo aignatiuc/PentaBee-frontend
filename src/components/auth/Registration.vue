@@ -143,10 +143,8 @@
 
           <div class="text-center button">
             <b-btn
-              class="col-md-5 float-none d-inline-block btn btn-1"
-              variant="warning"
+              class="col-md-5 float-none d-inline-block btn btn-1 mb-2"
               block
-              pill
               @click="registerIt()"
             >Create your account
             </b-btn>
@@ -154,7 +152,7 @@
 
           <p class="text-center">
             Already have a
-            <b-link class="link-redirect">PentaBee</b-link>
+            <b-text class="link-redirect">PentaBee</b-text>
             account?
             <b-link class="link-redirect" to="/login">Log In</b-link>
           </p>
