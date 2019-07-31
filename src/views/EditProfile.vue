@@ -1,5 +1,5 @@
 <template>
-  <div class="edit">
+  <div class="edit pt-2">
     <div class="profileCard home-content">
       <section id="card-outline">
         <b-container>

@@ -141,13 +141,16 @@
 
     <div class="text-center space">
       <b-btn
-        class="col-md-5 float-none d-inline-block btn btn-1"
-        variant="warning"
-        block
-        pill
+        class="float-none d-inline-block btn btn-1"
         @click="edit()"
-      > Save Changes
+      >Save changes
       </b-btn>
+      <!--      <b-btn-->
+      <!--        class="col-md-5 float-none d-inline-block btn btn-1"-->
+      <!--        block-->
+      <!--        @click="edit()"-->
+      <!--      > Save Changes-->
+      <!--      </b-btn>-->
     </div>
   </div>
 </template>
